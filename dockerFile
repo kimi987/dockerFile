@@ -1,0 +1,5 @@
+FROM golang
+
+RUN go version
+
+CMD go env
